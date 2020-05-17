@@ -1,5 +1,5 @@
 import unittest
-from SearchInsertPosition import Solution
+from SearchInsertPosition_BinarySearch import Solution
 
 
 class SearchInsertPositionTest(unittest.TestCase):
