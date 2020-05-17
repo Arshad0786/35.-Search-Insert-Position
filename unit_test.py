@@ -27,6 +27,12 @@ class SearchInsertPositionTest(unittest.TestCase):
         self.target = 0
         self.assertEqual(temp.searchInsert(self.nums, self.target), 0)
 
+    def test_longNums(self):
+        temp = Solution()
+        self.nums = list(range(100000))
+        self.target = 100000
+        self.assertEqual(temp.searchInsert(self.nums, self.target), 100000)
+
 
 if __name__ == "__main__":
     unittest.main()
